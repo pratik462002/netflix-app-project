@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "netflix-app-daf9d"
-  }
+    "default": "netflix-app-daf9d",
+    "clear": "netflix-app-daf9d",
+    "staging": "netflix-app-daf9d"
+  },
+  "targets": {}
 }
