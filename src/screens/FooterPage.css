@@ -1,0 +1,39 @@
+*{
+    color: #fff;
+}
+
+
+.table{
+    background-color: black;
+    display: flex;
+    /* padding: 50px; */
+    padding-left: 17%;
+    padding-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    justify-content: Space-around;
+}
+
+.row5{
+    display: grid;
+    font-size: 12px;
+    opacity: 0.5;
+
+}
+
+.ttt{
+    text-decoration: none;
+    padding-left: 22%;
+    font-size: 20px;
+    opacity: 0.5;
+   
+}
+.qustions{
+    background-color: black;
+    padding-top: 60px;
+}
+
+.row5>a{
+    text-decoration: none;
+    padding: 7px;
+}

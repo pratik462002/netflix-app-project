@@ -23,6 +23,8 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
       <h2>{title}</h2>
       <div className="rowPosters">
         {movie.map((movie) => (
+          
+          < >
           <img
             className={`row_poster ${isLargeRow && "row__posterLarge"}`}
             key={movie.id}
@@ -31,7 +33,14 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
             }`}
             alt={movie.name}
           />
+          {/* <div className="blurrbox">
+            <p className="smallname">
+              {movie.original_title}
+            </p>
+          </div> */}
+          </>
         ))}
+        
       </div>
     </div>
   );

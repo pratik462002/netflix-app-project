@@ -4,6 +4,7 @@ import Nav from '../Nav'
 import Banner from '../Banner'
 import Row from '../Row'
 import requests from '../Requests';
+import FooterPage from './FooterPage';
 
 function HomeScreen() {
   return (
@@ -20,6 +21,7 @@ function HomeScreen() {
         <Row title='Top Rated' fetchUrl={requests.fetchTopRated} 
         isLargeRow />
         <Row title='Documentries Orignals' fetchUrl={requests.fetchDocumentriesMovies} />
+        <FooterPage/>
     </div>
   )
 }
